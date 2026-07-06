@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pickleball Scoring Buddy — Support</title>
+<meta name="description" content="Support for Pickleball Scoring Buddy, the Apple Watch scorekeeper for doubles pickleball. It always knows the score.">
+<style>
+  :root {
+    --bg: #0b0d10;
+    --card: #14181d;
+    --text: #e8ecef;
+    --muted: #9aa3ab;
+    --blue: #0A84FF;
+    --green: #C6F135;
+    --line: #232a31;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  main { max-width: 640px; margin: 0 auto; padding: 64px 24px 96px; }
+  .badge {
+    display: inline-block; font-size: 13px; font-weight: 600; letter-spacing: .06em;
+    text-transform: uppercase; color: var(--green); margin-bottom: 16px;
+  }
+  h1 { font-size: 40px; line-height: 1.15; letter-spacing: -0.02em; margin-bottom: 10px; }
+  .tagline { font-size: 21px; color: var(--blue); font-weight: 600; margin-bottom: 28px; }
+  p { color: var(--muted); margin-bottom: 16px; }
+  strong { color: var(--text); font-weight: 600; }
+  h2 { font-size: 22px; margin: 48px 0 12px; letter-spacing: -0.01em; }
+  .card {
+    background: var(--card); border: 1px solid var(--line); border-radius: 14px;
+    padding: 20px 22px; margin: 18px 0;
+  }
+  .card h3 { font-size: 16px; margin-bottom: 6px; }
+  .card p { margin-bottom: 0; font-size: 15.5px; }
+  a { color: var(--blue); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  ul { list-style: none; }
+  li { color: var(--muted); padding-left: 22px; position: relative; margin-bottom: 10px; }
+  li::before { content: "·"; color: var(--green); position: absolute; left: 6px; font-weight: 700; }
+  footer { margin-top: 64px; padding-top: 24px; border-top: 1px solid var(--line); font-size: 14px; color: var(--muted); }
+  footer a { color: var(--muted); text-decoration: underline; }
+</style>
+</head>
+<body>
+<main>
+  <span class="badge">Apple Watch</span>
+  <h1>Pickleball Scoring Buddy</h1>
+  <p class="tagline">It always knows the score.</p>
+
+  <p>The Apple Watch scorekeeper for doubles pickleball — two taps to start, one tap per rally,
+  and the correct call spoken at your wrist before every serve. No names, no phone, no account.</p>
+
+  <h2>Support</h2>
+  <div class="card">
+    <h3>Contact</h3>
+    <p>Questions, bug reports, or a score call you think was wrong:
+    <a href="mailto:spencelloyd@gmail.com?subject=Pickleball%20Scoring%20Buddy">spencelloyd@gmail.com</a>.
+    A wrong call is treated as a fatal bug — include the score sequence if you can.</p>
+  </div>
+
+  <h2>Common questions</h2>
+  <div class="card">
+    <h3>How do I start a game?</h3>
+    <p>Open the app, tap where you're standing, tap who serves first. That's it — rules
+    (to 11 / 15 / 21, win by 1 or 2) persist from last time and can be changed from the rules chip.</p>
+  </div>
+  <div class="card">
+    <h3>How do I score a rally?</h3>
+    <p>Tap the half of the screen for the team that won the rally. The watch confirms with a
+    haptic and speaks the next call. Mis-tap? Undo restores everything — score, server, positions —
+    from any screen, including game over.</p>
+  </div>
+  <div class="card">
+    <h3>Why does it ask about workouts?</h3>
+    <p>A workout session keeps the app on your wrist for the whole game. Saving the workout to
+    Health afterward is optional and off by default.</p>
+  </div>
+
+  <h2 id="privacy">Privacy Policy</h2>
+  <p><strong>Pickleball Scoring Buddy does not collect any data.</strong> Effective July 6, 2026.</p>
+  <ul>
+    <li>No data leaves your watch. The app has no server, no account system, and makes no network requests.</li>
+    <li>No analytics, no advertising, no tracking SDKs of any kind.</li>
+    <li>No personal information is asked for or stored — not even player names.</li>
+    <li>Game state and rule preferences are stored only on your device.</li>
+    <li>If you choose to save a game as a workout, it is written to Apple Health on your device under
+    Apple's Health privacy protections. The app only writes workouts; it does not read your health data.</li>
+    <li>Since no data is collected, there is nothing for us to share, sell, or delete.</li>
+  </ul>
+  <p>If this policy ever changes, the change will be posted here before it takes effect.
+  Questions: <a href="mailto:spencelloyd@gmail.com?subject=Privacy%20—%20Pickleball%20Scoring%20Buddy">spencelloyd@gmail.com</a>.</p>
+
+  <footer>
+    © 2026 Lloyd Financial Consulting LLC · <a href="#privacy">Privacy Policy</a>
+  </footer>
+</main>
+</body>
+</html>
